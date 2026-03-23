@@ -12,6 +12,9 @@ A future vision of the St Fagans site with accessibility solutions added. Made i
 * [Data Map Wales](https://datamap.gov.wales/maps/lidar-viewer/) was used for the LiDAR data.
 * [geotiff2stl](https://github.com/ewandennis/geotiff2stl) was used for conversion to an STL.
 
+### 3D Printing
+An STL final file will soon be added to the STLs folder. The model is planned to be split into 4 peices to large print sizes
+
 ---
 
 ### Rendered Images
