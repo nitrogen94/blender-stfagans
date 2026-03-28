@@ -11,7 +11,7 @@ A future vision of the St Fagans site with accessibility solutions added. Made i
 ### Details
 The model is compried of 100s of different objects (trees, buildings, etc...) to make it easier to work with, but the objects are not stiched together. There are 2 versions:
 
-* stfagans.blend - virtual geometry still exists with render objects included (easy to edit & render)
+* stfagans.blend - virtual geometry still exists with render objects included (easy to edit & render with). This version does not receive fixes/optimizations for 3D printing, only majour changes.
 * stfagans-baked.blend - all real geometry, render objects have been deleted (difficult to edit). Use this for exporting as STL and splitting up the STL into multiple pieces if required.
 
 Final STLs will be released in the released section.
