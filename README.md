@@ -14,7 +14,8 @@ The model is compried of 100s of different objects (trees, buildings, etc...) to
 * stfagans.blend - virtual geometry still exists with render objects included (easy to edit & render with). This version does not receive fixes/optimizations for 3D printing, only majour changes.
 * stfagans-baked.blend - all real geometry, render objects have been deleted (difficult to edit). Use this for exporting as STL and splitting up the STL into multiple pieces if required.
 
-Final STLs will be released in the released section.
+The models are scaled down to accurate size as of release 1.0.3, so you must export STLs with a 1000 scale multiplier to ensure they remain a consistent size in your slicer/3D print.
+Final STLs will be released in the released section. 
 Use 2-5% infill printing them (extra infill is unnecessary)
 
 ### Rendered Images
