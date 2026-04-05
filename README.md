@@ -18,9 +18,11 @@ To avoid having to re-print the entire model if one tree is broken, the trees ar
 
 Final STLs will be released in the released section. Download the part 1-4 STLs & the tree catalogue, then print with the slicer settings below.
 
-* Required bed size: 235mm (you may be able to scale down in slicer with a smaller bed)
+* Default required bed size: 235mm (you can scale down the model in your slicer with a smaller bed)
 * Infill (main terrain): <4%
 * Infill (trees): >40%
+
+To calculate the scale factor for your print bed, divide your print bed width/length in mm by 235 (e.g. 220÷235 = 0.936170213).
 
 When printing the trees, use wire cutters to cut the trees off the platform then match each size of tree to the correct holes. Use the images below as a guide to match the sizes of trees to the correct holes, or open the .blend file to match them.
 <br>
