@@ -4,36 +4,55 @@
 ![Forks](https://img.shields.io/github/forks/nitrogen94/blender-stfagans?style=flat&color=blue)
 ![Hits](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fnitrogen94%2Fblender-stfagans&label=HITS&countColor=%2379c83d&style=flat)
 
-A future vision of the St Fagans site with accessibility solutions added. Made in **Blender 5.0.1** for the [EESW Project](https://www.stemcymru.org.uk/).
+A future vision of the St Fagans site with accessibility solutions added. Made in **Blender** for the [EESW Project](https://www.stemcymru.org.uk/).
 
-![Model Screenshot](screenshots/rendered-final/stfagans-final-2.2.jpg)
+![Model Screenshot](assets/rendered-images/stfagans-final-2.2.jpg)
 
 ### Details
-The model is compried of 100s of different objects (trees, buildings, etc...) to make it easier to work with, but the objects are not stiched together. There are 2 versions:
+The model is compried of 100s of different objects (trees, buildings, etc...) to make it easier to work with, but the objects are not stiched together. The file may take up to a few minutes to open, this is expected.
+> To apply all modifiers, press a (selects all objects) > ctrl+a > virtual geometry to mesh
 
-* stfagans.blend - virtual geometry still exists with render objects included (easy to edit & render with). This version does not receive fixes/optimizations for 3D printing, only majour changes.
-* stfagans-baked.blend - all real geometry, render objects have been deleted (difficult to edit). Use this for exporting as STL and splitting up the STL into multiple pieces if required.
+## 3D Printing Guide
+To avoid having to re-print the entire model if one tree is broken, the trees are dsigned to fit into holes in the model. No glue should be necessary, the trees should just friction fit. 
 
 Final STLs will be released in the released section.
-Use 2-5% infill printing them (extra infill is unnecessary)
+Required bed size: 235mm
+> you may be able to scale down in slicer with a smaller bed
+Infill (main terrain): <4%
+Infill (trees): >40%
+
+When printing the trees, use wire cutters to cut the trees off the platform then match each size of tree to the correct holes. Use the images below as a guide to match the sizes of trees to the correct holes, or open the .blend file to match them.
+<br>
+
+|Tree size|Small|Medium-small|Medium|Large|
+|---------|-----|------------|------|-----|
+|Color    |Blue |Light blue  |Yellow|Red  |
+
+![Model Screenshot](assets/viewport-screenshots/tree-match-1.png)
+
+![Model Screenshot](assets/viewport-screenshots/tree-match-2.png)
+
+## TODO
+* Update printed tree catalogue to use array modifiers instead of instanced objects
+* Update assets to reflect new model
 
 ### Rendered Images
 
-![Model Screenshot](screenshots/rendered-final/stfagans-final-2.1.jpg)
+![Model Screenshot](assets/rendered-images/stfagans-final-2.1.jpg)
 
-![Model Screenshot](screenshots/rendered-final/stfagans-final-2.5.jpg)
+![Model Screenshot](assets/rendered-images/stfagans-final-2.5.jpg)
 
-![Model Screenshot](screenshots/rendered-final/stfagans-final-2.7.jpg)
+![Model Screenshot](assets/rendered-images/stfagans-final-2.7.jpg)
 
-![Model Screenshot](screenshots/rendered-final/stfagans-final-2.4.jpg)
+![Model Screenshot](assets/rendered-images/stfagans-final-2.4.jpg)
 
 ### Viewport Images
 
-![Model Screenshot](screenshots/flat-final/flat-1.jpg)
+![Model Screenshot](assets/viewport-screenshots/flat-1.jpg)
 
-![Model Screenshot](screenshots/flat-final/flat-2.jpg)
+![Model Screenshot](assets/viewport-screenshots/flat-2.jpg)
 
-![Model Screenshot](screenshots/flat-final/flat-3.jpg)
+![Model Screenshot](assets/viewport-screenshots/flat-3.jpg)
 
 > **Licensing Note:** Contains public sector information licensed under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
