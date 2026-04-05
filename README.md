@@ -11,7 +11,7 @@ A future vision of the St Fagans site with accessibility solutions added. Made i
 ### Model Details
 The model is compried of 100s of different objects (trees, buildings, etc...) to make it easier to work with, but the objects are not stiched together. The file may take up to a few minutes to open, this is expected (likely becuase of the many modifiers). To apply all modifiers, press a (selects all objects) > ctrl+a > virtual geometry to mesh.
 
-The models are scaled down to accurate size as of release 1.0.3, so you must export STLs with a 100 scale multiplier to ensure they remain a consistent size in your slicer/3D print.
+The models are scaled down to accurate size as of release 1.0.3, so you must export STLs with a 1000 scale multiplier from the .blend file to ensure they remain a consistent size in your slicer/3D print.
 
 ### 3D Printing Guide
 To avoid having to re-print the entire model if one tree is broken, the trees are dsigned to fit into holes in the model. No glue should be necessary, the trees should just friction fit.\
