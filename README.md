@@ -14,7 +14,7 @@ The model is compried of 100s of different objects (trees, buildings, etc...) to
 The models are scaled down to accurate size as of release 1.0.3, so you must export STLs with a 1000 scale multiplier from the .blend file to ensure they remain a consistent size in your slicer/3D print.
 
 ### 3D Printing Guide
-To avoid having to re-print the entire model if one tree is broken, the trees are dsigned to fit into holes in the model. No glue should be necessary, the trees should just friction fit.\
+To avoid having to re-print the entire model if one tree is broken, the trees are dsigned to fit into holes in the model. No glue should be necessary, the trees should just friction fit. The printed model is slightly smaller than the full model to allow for a larger final model size.
 
 Final STLs will be released in the released section. Download the part 1-4 STLs & the tree catalogue, then print with the slicer settings below.
 
