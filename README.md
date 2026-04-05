@@ -13,7 +13,7 @@ The model is compried of 100s of different objects (trees, buildings, etc...) to
 
 The models are scaled down to accurate size as of release 1.0.3, so you must export STLs with a 100 scale multiplier to ensure they remain a consistent size in your slicer/3D print.
 
-## 3D Printing Guide
+### 3D Printing Guide
 To avoid having to re-print the entire model if one tree is broken, the trees are dsigned to fit into holes in the model. No glue should be necessary, the trees should just friction fit.\
 
 Final STLs will be released in the released section. Download the part 1-4 STLs & the tree catalogue, then print with the slicer settings below.
@@ -33,7 +33,7 @@ When printing the trees, use wire cutters to cut the trees off the platform then
 
 ![Model Screenshot](assets/viewport-screenshots/tree-match-2.png)
 
-## TODO
+### TODO
 * Update printed tree catalogue to use array modifiers instead of instanced objects
 * Update assets to reflect new model
 
