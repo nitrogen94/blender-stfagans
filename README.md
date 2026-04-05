@@ -8,18 +8,21 @@ A future vision of the St Fagans site with accessibility solutions added. Made i
 
 ![Model Screenshot](assets/rendered-images/stfagans-final-2.2.jpg)
 
-### Details
+### Model Details
 The model is compried of 100s of different objects (trees, buildings, etc...) to make it easier to work with, but the objects are not stiched together. The file may take up to a few minutes to open, this is expected.
 > To apply all modifiers, press a (selects all objects) > ctrl+a > virtual geometry to mesh
 
-## 3D Printing Guide
-To avoid having to re-print the entire model if one tree is broken, the trees are dsigned to fit into holes in the model. No glue should be necessary, the trees should just friction fit. 
+The models are scaled down to accurate size as of release 1.0.3, so you must export STLs with a 100 scale multiplier to ensure they remain a consistent size in your slicer/3D print.
 
-Final STLs will be released in the released section.
-Required bed size: 235mm
-> you may be able to scale down in slicer with a smaller bed
-Infill (main terrain): <4%
-Infill (trees): >40%
+## 3D Printing Guide
+To avoid having to re-print the entire model if one tree is broken, the trees are dsigned to fit into holes in the model. No glue should be necessary, the trees should just friction fit.\
+
+Final STLs will be released in the released section. Download the part 1-4 STLs & the tree catalogue, then print with the slicer settings below.
+
+* Required bed size: 235mm
+  > you may be able to scale down in slicer with a smaller bed
+* Infill (main terrain): <4%
+* Infill (trees): >40%
 
 When printing the trees, use wire cutters to cut the trees off the platform then match each size of tree to the correct holes. Use the images below as a guide to match the sizes of trees to the correct holes, or open the .blend file to match them.
 <br>
