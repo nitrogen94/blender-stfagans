@@ -35,10 +35,6 @@ When printing the trees, use wire cutters to cut the trees off the platform then
 
 ![Model Screenshot](assets/viewport-screenshots/tree-match-2.png)
 
-### TODO
-* Update printed tree catalogue to use array modifiers instead of instanced objects
-* Update assets to reflect new model
-
 ### Rendered Images
 
 ![Model Screenshot](assets/rendered-images/stfagans-final-2.1.jpg)
@@ -57,8 +53,12 @@ When printing the trees, use wire cutters to cut the trees off the platform then
 
 ![Model Screenshot](assets/viewport-screenshots/flat-3.jpg)
 
-> **Licensing Note:** Contains public sector information licensed under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+### TODO
+* Update printed tree catalogue to use array modifiers instead of instanced objects
+* Update assets to reflect new model
 
 ### Data Sources
 * [Data Map Wales](https://datamap.gov.wales/maps/lidar-viewer/) was used for the LiDAR data.
 * [geotiff2stl](https://github.com/ewandennis/geotiff2stl) was used for conversion to an STL.
+
+> **Licensing Note:** Contains public sector information licensed under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
