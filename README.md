@@ -2,7 +2,7 @@
 
 ![Stars](https://img.shields.io/github/stars/nitrogen94/blender-stfagans?style=flat&color=gold)
 ![Forks](https://img.shields.io/github/forks/nitrogen94/blender-stfagans?style=flat&color=blue)
-![Hits](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fnitrogen94%2Fblender-stfagans&label=HITS&countColor=%2379c83d&style=flat)
+![Views](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fnitrogen94%2Fblender-stfagans&label=HITS&countColor=%2379c83d&style=flat)
 
 A future vision of the St Fagans site with accessibility solutions added. Made in **Blender** for the [EESW Project](https://www.stemcymru.org.uk/).
 
